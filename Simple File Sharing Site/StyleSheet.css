@@ -1,0 +1,36 @@
+body {
+background:url(0.png);
+background-repeat:no-repeat;
+background-size:cover;
+
+
+background-color : #5DADE2;
+font-family : Times, Georgia, serif;
+text-align : center;
+font-size : 25px;
+}
+p.suc {
+font-size : 30px;
+color:#48C9B0;
+}
+p.fail {
+font-size : 30px;
+color:#E74C3C;
+}
+div{
+    width: 320px;
+    padding: 10px;
+    right: 0;
+    margin: auto;
+	text-align: center;
+}
+
+h1{
+font-size : 38px;
+color:  #E74C3C;
+}
+
+a{
+font-size : 20px;
+color: #E67E22  ;
+}

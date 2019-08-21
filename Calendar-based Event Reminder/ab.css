@@ -1,0 +1,125 @@
+@font-face{ 
+    font-family: Vesper-Libre;
+    src: url(./vesper-libre/VesperLibre-Regular.ttf);
+}
+body{
+    display: block;
+    margin:0;
+    font-weight: normal;
+    text-align:center;
+}
+a.bodylink{
+    color:#00FFAE;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 27px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #FF6239;
+    color:white;
+    text-decoration:none;
+}
+a.active {
+    background-color: #B22500;
+    color:white;
+    text-decoration:none;
+}
+h1{
+    font: Vesper-Libre;
+    color:white;
+    margin: 0 auto;
+    padding: inherit;
+}
+h2{
+    color: white;
+    margin: 0 auto;
+}
+h3{
+    color: white;
+    margin: 0 auto;
+}
+h4{
+    color:white;
+    margin: 0 auto;
+}
+label{
+    font-weight: normal;
+}
+.btn{
+    background: #333;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 5px;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+#createEvent{
+    background: #51051A;
+    color: white;
+}
+#createEvent:hover{
+    background: #000000;
+    color: white;
+}
+input{
+    color: black;
+}
+#loginusername{
+    color: black;
+}
+#loginpassword{
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 35%;
+    padding: 0;
+    overflow: hidden;
+    background-color:#51051A;
+    text-align:center;
+    align-content:center;
+}
+#welcome{
+    background-color: #51051A;
+    color:white;
+}
+#loginwidget{
+    text-align: right;
+}
+#new{
+    background-color:#333;
+    text-align: center;
+    padding: 20px;
+}
+#cal-container{
+    background-color:#333;
+    margin-left:80px;
+    margin-right:80px;
+}
+#cal-base{
+    background-color: #333;
+    
+}
+#cal{
+    background-color: #333;
+    color:white;
+}
+#foot{
+    background-color: #51051A;
+    color: white;
+}
+#homeHeading{
+    font: 122px/122px 'Vesper-Libre', Arial;
+    padding: 30px;
+    padding-bottom:10px;
+}
